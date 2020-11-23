@@ -1,0 +1,11 @@
+I did quite a bit of research before I came across a stack overflow problem where one of the answers
+suggested the use of OrderedDict because the objects in it are ordered. So, I read the python documentation
+and the methods 'move_to_end' and 'popitem' for this data structure were ideal for the LRU Cache problem.
+
+Time Complexity: 
+    get() -> O(1) because all statements are executed once without repetition.
+    set() -> O(1) because all statements are executed once without repetition.
+Space Complexity:
+    get(), set() -> O(1) because everything takes up constant space.
+    Creating the class instance 'our_cache' has a space complexity of O(n) where 'n' is the capacity of the
+    OrderedDict.

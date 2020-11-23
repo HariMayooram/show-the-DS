@@ -1,0 +1,7 @@
+After some reseach I found that python had a library called 'heapq'. So, I used a binary tree which was 
+populated using the two smallest tuples (frequencies of each letter) that were in the heap.
+
+Time Complexity: 
+    O(n log n) because we are building the tree.
+Space Complexity:
+    O(m^n) because of the recursion in assign_bits()

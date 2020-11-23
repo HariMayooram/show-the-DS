@@ -1,0 +1,8 @@
+This was the simplest problem to solve. For each sub group in a group, the function could be called recursively
+until the required user was found in one of the child groups.
+
+Time complexity:
+    O(n)
+
+Space complexity:
+    Constant space for each function call, so space complexity would be O(n) for 'n' function calls.

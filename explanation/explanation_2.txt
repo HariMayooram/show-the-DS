@@ -1,0 +1,10 @@
+The solution to this problem came pretty quickly to me. It was clear that recursion was the best solution 
+for this problem as the algorithm needed to traverse through every directory and subdirectory. So, my 
+'find_files' function recursively traverses through every subdirectory until a file with the required suffix
+is found.
+
+Time Complexity: 
+    O(n)
+    
+Space Complexity:
+    O(n)

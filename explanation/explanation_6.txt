@@ -1,0 +1,11 @@
+This problem was similar to a problem solved in the first project where distinct telephone numbers needed to be
+compiled from texts and calls. So, using the same logic, I extracted all the values from the linked list, 
+pushed them into a set. From there, the solution was obtained using set operations.
+
+Space Complexity:
+    O(n) where 'n' is the number of nodes in the linked list.
+
+Time complexity: 
+    O(n) for convert_to_list(), union() and intersection(). In convert_to_list the linked is traversed through once.
+    In the other two functions, the linked list is traversed through twice, once when convert_to_list is called and
+    the other time to create a new linked list.

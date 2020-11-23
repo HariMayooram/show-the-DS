@@ -1,0 +1,10 @@
+The problem asked us to use a linked list. So, I used only one pointer to the head and traversed to the end of
+the list whenever a block needed to be added.
+
+Time Complexity: 
+    add_block() -> O(n) because in the case with multiple nodes, the while loop traverses through all the 'n'
+                   nodes.
+    calc_hash() -> O(1) because all statements are executed once without repetition.
+
+Space Complexity:
+    O(n) where 'n' is the number of blocks.
